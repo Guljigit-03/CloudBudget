@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFf;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end-block {
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    margin: 0 10px;
+}
+
+.header-btn {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+#hero {
+    background: url("../img/Bg.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 200px;
+
+
+}
+.hero-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+
+
+}
+.hero-btn{
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding: 8px 26px;
+    text-transform: uppercase;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    color: #ED4C5C;
+    border: none;
+
+
+
+}
+.hero-btn:hover{
+    cursor: pointer;
+    background: red;
+    color: #FFFFFf;
+    transition: 0.7s;
+    transform: translateY(-20px);
+}
+#Management{
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+}
+.left-block{
+    width: 50%;
+}
+.right-blok{
+    position: relative;
+    width: 50%;
+}
+.man-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 25px;
+    color: #000000;
+
+}
+.man-subtitle{
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    width: 445px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.man-link{
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-align: justify;
+
+    color: #ED4C5C;
+}
+.man-video{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    top: 122px;
+    left: -31px;
+    height: 66px;
+    border-radius: 50%;
+    background: #ED4C5C;
+}
+.play-btn{
+    display: flex;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+}
+
+.card{
+    margin: 0 20px;
+    padding: 50px ;
+}
+.hover-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #101010;
+
+}
+.hover-subtitle{
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #101010;
+}
+.hover-link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+
+    color: #ED4C5C;
+
+}
+.hover{
+    opacity: 0;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 293px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.card:hover .hover{
+    opacity: 1;
+    transition: 0.7s;
+    cursor: pointer;
+    transform: translateY(-100px);
+}
+.tech-title{
+
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.tech-num{
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(16, 16, 16, 0.08);
+
+
+}
+.tech:hover .hover{
+    opacity:1;
+    transition: 0.7s;
+    cursor: pointer;
+    transform: translateY(-100px);
+}
+
+
